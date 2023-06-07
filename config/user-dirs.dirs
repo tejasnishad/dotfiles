@@ -1,0 +1,13 @@
+doc = "$HOME/doc"
+tmp = "$HOME/tmp"
+media = "$doc/media"
+other = "$HOME/other"
+
+XDG_DESKTOP_DIR="$HOME" 
+XDG_DOCUMENTS_DIR="$doc" 
+XDG_DOWNLOAD_DIR="$tmp" 
+XDG_MUSIC_DIR="$media/music" 
+XDG_PICTURES_DIR="$media/pictures" 
+XDG_PUBLICSHARE_DIR="$other/public" 
+XDG_TEMPLATES_DIR="$other/templates" 
+XDG_VIDEOS_DIR="$media/videos"

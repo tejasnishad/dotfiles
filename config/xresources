@@ -1,0 +1,17 @@
+!! URxvt Appearance
+*.font: xft:SF Mono Nerd Font:style=Regular:pixelsize=11
+*.boldFont: xft:SF Mono Nerd Font:style=Bold:pixelsize=11
+*.italicFont: xft:SF Mono Nerd Font:style=Italic:pixelsize=11
+*.boldItalicFont: xft:SF Mono Nerd Font:style=Bold Italic:pixelsize=11
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 24
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: true
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
