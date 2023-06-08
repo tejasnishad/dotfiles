@@ -5,3 +5,5 @@ export XDG_STATE_HOME=$HOME/.local/state
 export ZDOTDIR=$XDG_CONFIG_HOME/zsh
 export PATH=$PATH:$HOME/.local/bin
 export HISTFILE=$XDG_STATE_HOME/zsh/history
+export TERMINAL="urxvt"
+export EDITOR="nvim"
