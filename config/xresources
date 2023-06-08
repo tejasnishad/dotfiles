@@ -6,7 +6,7 @@
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
-URxvt.internalBorder: 24
+URxvt.internalBorder: 32
 URxvt.cursorBlink: true
 URxvt.cursorUnderline: true
 URxvt.saveline: 2048

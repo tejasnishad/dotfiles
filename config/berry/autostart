@@ -2,6 +2,8 @@
 
 # Autostart
 pkill sxhkd; sxhkd &
+hsetroot -solid '#e5e5ea'
+xrdb -load ~/.config/xresources
 
 # Set decoration geometry
 berryc border_width       0
@@ -13,10 +15,10 @@ berryc top_gap            0
 berryc inner_focus_color   1c1c1e
 berryc inner_unfocus_color 1c1c1e  
 berryc text_focus_color    f2f2f7
-berryc text_unfocus_color  c7c7cc
+berryc text_unfocus_color  aeaeb2
 
 # Other options
 berryc smart_place "true"
 berryc draw_text   "true"
 berryc edge_lock   "true"
-berryc set_font    "Satoshi-9"
+berryc set_font    "Satoshi Medium-9"
