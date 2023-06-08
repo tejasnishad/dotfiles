@@ -2,6 +2,7 @@
 
 # Autostart
 pkill sxhkd; sxhkd &
+pkill picom; picom &
 hsetroot -solid '#e5e5ea'
 xrdb -load ~/.config/xresources
 
