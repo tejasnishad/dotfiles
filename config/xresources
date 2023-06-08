@@ -1,3 +1,5 @@
+#include "/home/tejas/.config/theme"
+
 !! URxvt Appearance
 *.font: xft:SF Mono Nerd Font:style=Regular:pixelsize=11
 *.boldFont: xft:SF Mono Nerd Font:style=Bold:pixelsize=11
@@ -37,3 +39,4 @@ URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.urlLauncher: firefox
 URxvt.underlineURLs: true
 URxvt.urlButton: 1
+
