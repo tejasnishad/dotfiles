@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# reload in case sxhkd running
+if pgrep "sxhkd" > /dev/null; then
+	pkill -USR1 -x sxhkd
+else
+	sxhkd -c ~/.config/berry/sxhkdrc &
+fi
+
+~/.config/berry/autostart
+xrdb ~/.Xresources
+hsetroot -solid "#81a2be"
+
+pkill picom
+pkill polybar
+
+picom &
+polybar bar &

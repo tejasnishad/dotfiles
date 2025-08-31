@@ -1,0 +1,5 @@
+#!/bin/sh
+
+dmenu_run -nf '#969896' -nb '#1d1f21' -sf '#c5c8c6' -sb '#1d1f21' \
+	 -h 44 -fn "GeistMono NFM:size=10" -p "󱐋 LAUNCH"
+
