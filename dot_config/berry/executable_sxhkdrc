@@ -4,11 +4,11 @@ super + Return
 super + d
 	~/bin/menu
 
+XF86MonBrightness{Up,Down}  
+	brightnessctl s 10{+,-}
+
 super + shift + r
 	~/bin/startup
-
-super + shift + w
-	~/bin/wifi-menu --dmenu
 
 super + shift +  {h, j, k, l}
     berryc window_resize {-50 0, 0 50, 0 -50, 50 0}
